@@ -2,14 +2,14 @@
 class ListNode{
     int data;
     ListNode next;
-    ListNode(){};
+    ListNode(){}
     ListNode(int data){
         this.data = data;
-    };
+    }
 }
-public class OddEvenLinkedList {
+public class OddEvenLinkedList_Amazon {
     public static void main(String[] args) {
-        OddEvenLinkedList object = new OddEvenLinkedList();
+        OddEvenLinkedList_Amazon object = new OddEvenLinkedList_Amazon();
         ListNode head = new ListNode(4);
         ListNode node1 = new ListNode(5);
         ListNode node2 = new ListNode(6);
