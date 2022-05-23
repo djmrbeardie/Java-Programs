@@ -6,6 +6,10 @@ class ListNode{
     ListNode(int data){
         this.data = data;
     }
+    ListNode(int data, ListNode next){
+        this.data = data;
+        this.next = next;
+    }
 }
 public class OddEvenLinkedList_Amazon {
     public static void main(String[] args) {
